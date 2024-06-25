@@ -1,0 +1,108 @@
+body{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.mainContainer{
+    height: 1000px;
+    width: 600px;
+}
+
+.container{
+    background-image: url("https://img.freepik.com/premium-photo/palm-trees-against-sky_1048944-5762240.jpg?w=740");
+    height: 300px;
+    width: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.container3{
+    margin: 30px;
+    margin-top: 10px;
+}
+
+.heading{
+    color: #323f4b;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.paragraph{
+    color: #9aa5b1;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.container4{
+    display: flex;
+    height:170px;
+    width: 550px;
+}
+
+/* .firstdiv{
+    height: 150px;
+    width: 183px;
+    border: 2px solid black;
+    border-radius: 20px;
+    background-image: url("https://img.freepik.com/free-photo/empty-chair-beach_74190-1631.jpg?t=st=1713878631~exp=1713882231~hmac=2a8927c2309dcd40ef9a49cd7e94404d6f1ece36fde6ed78984bec78442764a5&w=740");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}*/
+
+.div1, .div2,.div3, .div4 {
+    flex: 1;
+    height: 120px;
+    width: 183px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.div1{
+    background-image: url("https://img.freepik.com/free-photo/empty-chair-beach_74190-1631.jpg?t=st=1713878631~exp=1713882231~hmac=2a8927c2309dcd40ef9a49cd7e94404d6f1ece36fde6ed78984bec78442764a5&w=740");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div3{
+    background-image: url("https://img.freepik.com/premium-photo/sunset-serenity-exclusive-beachfront-residence-generative-ai_893610-3642.jpg?w=740");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div4{
+    background-image: url("https://img.freepik.com/free-photo/silhouette-palm-tree-with-umbrella_74190-4056.jpg?t=st=1713886187~exp=1713889787~hmac=9aac35a039417271f936b68d496befe8e8568af0aaeb6d359e55b9c86328635a&w=740");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container5{
+    display: flex;
+    height:170px;
+    width: 550px;
+}
+
+.div5, .div6,.div7{
+    flex: 1;
+    height: 120px;
+    width: 183px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.div5 iframe{
+    border-radius: 20px;
+}
+
+.div6 iframe{
+    border-radius: 20px;
+}
+
+.div7 iframe{
+    border-radius: 20px;
+}
